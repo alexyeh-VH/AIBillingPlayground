@@ -2,10 +2,10 @@ import streamlit as st
 import requests
 
 # Title of the web app
-st.title("Simple Web Form")
+st.title("Verismo Billing Assistant")
 
 # Text input fields
-note = st.text_area("Enter your name")
+note = st.text_area("Enter the encounter note")
 
 # Button to submit the form
 if st.button("Submit"):
